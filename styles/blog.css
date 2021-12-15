@@ -1,0 +1,289 @@
+#container{
+    width: 80%;
+    margin-left: 10%;
+    border-style: solid;
+    border-color: purple;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header
+{
+    background-image: -webkit-linear-gradient(top, white 0%, rgb(138, 138, 201));
+    margin-top: -30px;
+}
+
+h1
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-size: 45px;
+    text-shadow: 4px 4px rgb(190, 217, 233);
+    color: rgb(185, 124, 185);
+    font-family: cursive;
+}
+
+h1 img{
+    display: flex;
+    flex-wrap: wrap;
+    width: 350px;
+    
+}
+
+header ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: -30px;
+    list-style-type: none;
+    height: 40px;
+    background-color: white;   
+}
+
+ul li a
+{
+    text-decoration: none;
+    color:rgb(185, 124, 185);
+    font-weight: bold;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+footer
+{
+    background-color: white;
+    margin-bottom: -15px;
+}
+
+footer ul
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    align-items: center;
+    margin-top: -30px;
+    list-style-type: none;
+    height: 40px;
+}
+
+footer p
+{
+    color: purple;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-top: -16px;
+    background-color: rgb(138, 138, 201);
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+footer span
+{
+    font-family:Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    gap: 7px;
+    align-items: center;
+    background-color: rgb(138, 138, 201);
+    margin-top: -17px;
+}
+
+footer span a
+{
+    text-decoration: none;
+    color: white;
+    padding-right: 7px;
+}
+
+footer span a img
+{
+    height: 10px;
+    width: 20px;
+}
+
+footer p a:visited
+{
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+
+    h1 img{
+        width: 287px;
+        height: 150px;
+    }
+    header ul{
+        height: auto;
+        flex-direction: column;
+    }
+    header ul li{
+        
+        margin-left: -30px;
+    }
+    ul li a{
+        font-size: 3vw;
+    }
+    footer{
+        margin-bottom: unset;
+    }
+    footer ul{
+        padding-right: 37px;
+        gap: 3px;
+    }
+   
+    footer span{
+        justify-content: center;
+        font-size: 10px;
+    
+    }   
+    footer p{
+        margin-top: -1px;
+        font-size: 10px;
+        margin-bottom: 0px;
+        
+    }
+
+}
+
+#wrapper {
+    background-color: white;
+}
+
+main h1{
+    text-align: center;
+    color: black;
+    font-size: 50px;
+}
+
+main h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+main p {
+    font-size: 30px;
+    padding-left: 20px;
+    word-spacing: 10px;
+
+}
+
+#center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+main h2 {
+    text-align: center;
+    font-size: 40px;
+    color: purple;
+    
+}
+
+#possitive {
+    display: flex;
+    float: right;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 80px;
+    width: 13%;
+}
+
+#upcoming {
+    display: flex;
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 80px;
+    width: 13%;
+    padding-right: 90px;
+}
+
+#wrapper li {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(182, 5, 182);
+}
+
+#wrapper ul li {
+    margin-left: 70px;
+    color: rgb(182, 5, 182);
+}
+ 
+.container1 {
+    padding: 20px;
+    background-color: #f1f1f1;
+    color: purple;
+    font-weight: bold;
+  }
+ 
+  #bold {
+      font-weight: bold;
+  }
+  #title {
+      color: purple;
+      font-size: 30px;
+  }
+
+  #right1 {
+    float: right;
+}
+
+  .intro {
+      text-align: center;
+      font-size: 20px;
+      color: black;
+  }
+
+  #author {
+      text-align: right;
+      font-weight: bold;
+      padding-right: 20px;
+  }
+
+  #nextblog {
+      text-align: center;
+      padding-left: 70px;
+      padding-top: 25px;
+  }
+
+
+  input[type=text], input[type=submit] {
+    width: 100%;
+    padding: 7px;
+    margin: 5px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  input[type=checkbox] {
+    margin-top: 10px;
+  }
+  
+  input[type=submit] {
+    background-color: rgb(185, 124, 185);
+    color: white;
+    border: none;
+  }
+  
+  input[type=submit]:hover {
+    opacity: 0.5;
+  }
+
+  @media screen and (max-width:500px) {
+    #upcoming {
+        display: none;
+    }
+  }
